@@ -1,0 +1,8 @@
+print("Please enter the following information so I can sell it for a profit")
+name1=input("first name:")
+name2=input("last name:")
+grade=input("grade(9-12):")
+id=input("student ID:")
+login=input("login:")
+GPA=input("GPA(0.0-4.0):\t")
+print(f"Your Information\n\t Login:{login}\n\t ID:{id}\n\t name:{name1}gpa:{GPA}\n\t grade:{grade}")
