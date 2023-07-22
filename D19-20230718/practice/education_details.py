@@ -14,13 +14,14 @@ education_details=[{"study":"B.Tech",
                                                            {"semester_name":2,
                                                             "subjects":["Computer Network","Database System"],
                                                             "semester_grade":"B "}]}]
-#print(education_details)
+print(education_details)
 for item in education_details:
-    #print(item)
+    print(item)
     print(item["study"])   
 semester_marks=item["semester_marks"]
 for sem in semester_marks:
-    #print(sem)
+    print(sem)
     print(sem["semester_name"])
     print(sem["subjects"])
+print(education_details)
 
