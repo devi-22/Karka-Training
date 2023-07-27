@@ -2,6 +2,7 @@
 fruits=["apple","banana","orange","grapes","watermelon"]
 print(fruits[1])
 print(fruits[:2])
+print(fruits[1:])
 print (len(fruits))
 #dictionary method
 data={"top":200,
@@ -13,14 +14,14 @@ print(len(data))
 fruits=["apple","orange","banana","grapes",
         "watermelon","guava","pineapple","mango",
         "lichi","stawbery","blueberry","greenapple"]
-#for i,fruit in enumerate (fruits):
-    #if(i<3):
-        #print(fruit)
-    #else:
-        #break
-#for i,fruit in enumerate(fruits):
-    #if(i+1)%4==0:
-        #print(fruit)
+for i,fruit in enumerate (fruits):
+    if(i<3):
+        print(fruit)
+    else:
+        break
+for i,fruit in enumerate(fruits):
+    if(i+1)%4==0:
+        print(fruit)
 for i,fruit in enumerate(fruits):
     if(i>1):
         continue

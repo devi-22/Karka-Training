@@ -1,2 +1,2 @@
 import eligibility
-eligibility.paased_out_yr()
+eligibility.passed_out_yr()

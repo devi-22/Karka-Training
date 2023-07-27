@@ -1,5 +1,5 @@
 quiz=input("Are you ready for a quiz?")
-if (quiz==True):
+if (quiz=="true"):
     print("okay,here it comes!")
 else:
     print("not found")

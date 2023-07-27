@@ -4,7 +4,7 @@ def BMI(weight,height):
     BMI=weight/(height**2)
     return BMI
 #BMI=BMI(weight,height)
-print(BMI)
+print(BMI) 
 
 
 

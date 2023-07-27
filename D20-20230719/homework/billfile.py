@@ -32,24 +32,31 @@ def calculate_electricity_bill(consumer_data):
     print(List)  
     return List
 amount=calculate_electricity_bill(consumer_data)
-for i in amount:
+"""for i in amount:
     print(i)
     print(f"month:{i['month']}\nunits_consumed:{i['units_consumed']}\nbill_amount:{i['bill_amount']}")
     print("\n")
 dict=str(i)
 file=open("/home/devipriya/devipriya.txt","a")
-print(file.write(dict))
+print(file.write(dict))"""
 """file=open("/home/devipriya/devipriya.txt","r")
 print(file.read())"""
-
-
-
-
-
-name=input("how to save? ")
+text=""
 import json
-consumer_data_json = json.dumps()
-consumer_data_new=json.loads()
+name=str(list)
+method=input("enter the method: ")
+if method=="json" and "Json" and "JSON" and "jsOn" and "JSon":
+    list_json=json.dumps(name)
+    print(list_json)
+elif method=="dict":
+    list_dict=str(list)
+    print(list_dict)
+for i in list:
+    text=text+(f"month:{i['month']},\nunits_consumed:{i['unit_consumed']},\nbill_amount:{i['bill_amount']}")
+        
+
+
+
 
 
 

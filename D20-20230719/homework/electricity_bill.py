@@ -91,6 +91,7 @@ def calculate_electricity_bill(consumer_data):
         units.append(dict)
     print(units)  
 calculate_electricity_bill(consumer_data)
+
             
          
 
